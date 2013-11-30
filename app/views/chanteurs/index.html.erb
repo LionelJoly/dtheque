@@ -1,0 +1,25 @@
+<h1>Listing chanteurs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @chanteurs.each do |chanteur| %>
+      <tr>
+        <td><%= link_to 'Show', chanteur %></td>
+        <td><%= link_to 'Edit', edit_chanteur_path(chanteur) %></td>
+        <td><%= link_to 'Destroy', chanteur, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Chanteur', new_chanteur_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nom: MyString
+  prenom: MyString
+  dtnaissance: 2013-11-30
+  dtdeces: 2013-11-30
+  villeNaissance: MyString
+
+two:
+  nom: MyString
+  prenom: MyString
+  dtnaissance: 2013-11-30
+  dtdeces: 2013-11-30
+  villeNaissance: MyString
